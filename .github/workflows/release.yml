@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        shell: pwsh
+        shell: powershell
         run: ./build.ps1
       - name: Publish release
         shell: pwsh
